@@ -4,21 +4,21 @@
   margin: 0;
   padding: 0;
   font-size: 62.5%;
-  font-family: 'Arima Madurai';
+  font-family: 'Muli', sans-serif;
   scroll-behavior: smooth;
-  transition: all 0.2s ease-in-out;
-}
-
-body {
+  transition: all 0.2s ease-in-out; 
   background-color: #E4FBFF;
 }
 
 main {
   min-height: 75vh;
-  /*de "height para min-height deixa a altura da página flexível e evita o espaço sobrando -mm*/
   text-align: center;
-  padding: 1% 8%;
+  padding: 1% 10%;
   font-size: 4rem;
+}
+
+h1, h2, h3, h4, h5{
+  font-family: 'Muli';
 }
 
 main h1 {
@@ -429,9 +429,6 @@ form input, form textarea{
 
 
   }
-
-
-
 }
 
 
